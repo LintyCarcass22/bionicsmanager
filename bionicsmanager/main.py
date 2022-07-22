@@ -217,4 +217,10 @@ fr_status.grid(row=99, column=0, padx=4, pady=4, sticky='sw')
 statustxt_lb.grid(row=0, column=0)
 status_lb.grid(row=0, column=1)
 
+#dynamically adjusted width
+dir_lb.update()
+width = dir_lb.winfo_width()+100
+root.geometry(f"{width}x850")
+root.minsize(width, 850)
+
 root.mainloop()
