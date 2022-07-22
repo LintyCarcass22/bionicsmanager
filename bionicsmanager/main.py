@@ -4,6 +4,10 @@ from tkinter import messagebox
 import tkinter.ttk as ttk
 import functions as fn
 
+if not fn.f_find(fn.dir_root / 'instances'):
+    from os import makedirs
+    makedirs(fn.dir_root / 'instances')
+
 # // GUI functions
 loaded = ""
 special = "`*~*`"
