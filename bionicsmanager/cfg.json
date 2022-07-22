@@ -1,0 +1,46 @@
+{
+    "info":{
+    },
+    "bionics":{
+        "internal organs":{
+            "energetic kidney":2,
+            "synthetic lung":2,
+            "nuclear stomach":1,
+            "energy core":1,
+            "autonomic viruskiller":1
+        },
+        "brain":{
+            "muse chip":1,
+            "combat ai":1,
+            "learning assistant":1,
+            "circadian assistant":1,
+            "berserker chip":1,
+            "neuro enhancer":1,
+            "neurocalculator":1,
+            "neurostimulator":1,
+            "hyporegulator":1,
+            "cortexaugmentor":1
+        },
+        "body":{
+            "archotech arm or advanced bionic arm":2,
+            "archotech leg or advanced bionic leg":2,
+            "advanced bionic spine":1,
+            "exoskeleton suit":1,
+            "coagulator":1,
+            "healing enhancer":1,
+            "aesthetic shaper":1,
+            "hygiene enhancer":1,
+            "bionic bladder":1
+        },
+        "face":{
+            "robotic eye or aurum (social pawn)":2,
+            "advanced bionic ear":2,
+            "aesthetic nose":1,
+            "compression jaw":1
+        },
+        "optional":{
+            "psychic reader":1,
+            "psychic harmonizer":1
+        }
+    }
+}
